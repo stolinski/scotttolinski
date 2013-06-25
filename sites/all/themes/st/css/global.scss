@@ -1,0 +1,405 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+@import "base";
+
+body { background:url(../img/mbg.jpg); background-color:$bg; color:#111; font-size:62.5%; font-family: "futura-pt",sans-serif; font-style: normal; font-weight: 500;  @include transition-duration(0.2s); }
+a, a:link, a:visited { color:#222; text-decoration:none; @include transition-duration(0.2s);
+	&:hover {  }
+	&.active { color:#eee; }
+}
+h1, .site-name {
+	font-weight:700; text-transform:uppercase; font-size:4.2em;
+}
+h1.title { margin:40px 0; text-align:center; }
+h2 {
+	font-weight:700; font-size:2.6em; text-transform:uppercase;
+}
+h6 {
+	font-size:2em; font-weight: 400; font-family:athelas, serif;
+}
+p {
+	font-size:2.2em; font-weight: 400; font-family:athelas, serif; margin:0.8em 0 1.4em; line-height:1.2em;
+	a { border-bottom:$main solid 2px;
+		&:hover {
+			background:rgba($main, 0.5);
+		}
+	}
+}
+
+
+/* Header */
+header.section-header {
+	background:url(../img/hbg.jpg) #333;
+	color:white;
+	border-bottom:1px solid black;
+	@include box-shadow(#111 0 0 5px 1px inset);
+	.zone-branding-wrapper { position:relative; z-index:10;
+		.zone-branding { text-align:center;
+			.site-name-slogan { display:inline-block; float:none;
+				.site-name { margin-top: 33px;
+					a { border-bottom:5px solid $main; padding-bottom: 2px; @include transition(0.1s); color:white;
+						&:hover { padding-bottom:0; }
+					}
+				}
+				.site-slogan {
+					margin: 26px 0 40px;
+					font-size: 1.7em;
+				}
+			}
+			.region-menu { margin: 0;
+				nav.navigation { text-transform:uppercase; font-size:2.5em; font-weight:700; @include box-shadow( black 0 -10px 6px 0 inset);
+					ul { display:block;
+						li { display: block; width:100%; padding:0;
+							a { display: block; padding:20px; color:white;}
+						}
+						li.menu-463 { display:none; }
+						li.menu-218 { display:none;
+							a { background:rgba($main, 0.7); border-color:$main;
+								&:hover, &:active { background:rgba($main, 1.0); }
+							}
+						}
+						li.menu-331 {
+							a { background:rgba($dark, 0.7); border-color:$dark;
+								&:hover, &:active { background:rgba($dark, 1.0); }
+							}
+						}
+						li.menu-359 {
+							a { background:rgba($orange, 0.7); border-color:$orange;
+								&:hover, &:active { background:rgba($orange, 1.0); }
+							}
+						}
+						li.menu-472 {
+							a { background:rgba($contact, 0.7); border-color:$contact;
+								&:hover, &:active { background:rgba($contact, 1.0); }
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/* Not-Front */
+.not-front header.section-header .zone-branding-wrapper .zone-branding .region-menu {
+	nav.navigation { height:69px; overflow:hidden;
+		ul li.menu-463 { display:block;
+			a { background:rgba($main, 0.7); border-color:$main; border-bottom:4px solid; display: block; padding:20px; border-color:$main; @include transition();
+				&:hover, &:active { background:rgba($main, 1.0);
+					span { left:30%; }
+				}
+				span { font-family: 'ModernPictogramsNormal'; position:absolute; left:27%; @include transition();}
+			}
+			&.on a span { @include rotate(90deg); left:29%; }
+		}
+	}
+}
+
+
+
+.zone-header-wrapper { position:relative; z-index:11;
+	.zone-header { }
+}
+
+/*       ----Home Page Ish----        */
+
+/*    ---Featured---    */
+section.block-featured-projects-block { position:relative; margin:40px 0; text-align:center;
+	h2.block-title {
+		margin:40px 0;
+		text-align:center;
+		font-size:4.2em;
+	}
+	.views-row { position:relative;
+		.views-field-field-image { min-width:100%;
+			img {
+				width:100%;
+				height:auto;
+				@include box-shadow(2px 2px 6px rgba(black, 0.5));
+				@include transition-duration(0.2s);
+				&:hover {
+					@include box-shadow(2px 2px 10px rgba(black,0.7));
+				}
+			}
+		}
+		.views-field-title {
+			margin:20px 0;
+			a {
+				text-transform:uppercase;
+				font-weight:700;
+				@include link();
+			}
+		}
+	}
+	&:hover {
+		.views-field-title { }
+	}
+}
+section.block-journal-block-1 { margin:40px 0;
+	.view-display-id-block_1 {
+		.views-row { margin:10px 0;
+
+		}
+	}
+
+}
+/* Right Col */
+.front .region-sidebar-second {
+	.block-featured-projects-block-1, .block-journal-block-1 {
+		display:none;
+	}
+}
+.region-sidebar-second-inner {
+	.block-featured-projects-block-1 {
+		img {
+			width:100%; height:auto; @include box-shadow(0 0 6px black); @include transition-duration(0.2s);
+			&:hover { @include box-shadow(0 0 10px black); }
+		}
+	}
+	.block-journal-block-1 {
+		.view-journal {
+			.views-field-title {
+				a { font-size:2.4em; border-bottom:$main solid 2px;
+					&:hover { background:rgba($main, 0.5); }
+				}
+			}
+		}
+	}
+}
+
+/* Main Content Area */
+section.section-content {
+	margin:0 0 40px; border-top:1px solid white;
+}
+
+
+
+/*    ---ABOUT---      */
+.context-about {
+
+}
+.bio-pic {
+	img {
+		border:solid 10px white;
+		@include box-shadow(2px 2px 6px rgba(black, 0.3));
+	}
+}
+
+/*    ---PROJECTS---     */
+.view-projects-page {
+	.views-field-field-image {
+	}
+}
+.context-projects {
+	.views-field-field-image {
+	}
+	img {
+		width:100%;
+		height:auto;
+		@include box-shadow(2px 2px 6px rgba(black, 0.3));
+		@include transition-duration(0.2s);
+	}
+	.view-id-projects_page {
+		.views-row {
+			text-align:center;
+		}
+		.views-field-title { margin:30px 0 20px; text-align:center;
+			a {
+				@include link();
+			}
+		}
+	}
+}
+.views-exposed-widgets {
+	label {
+		font-size:2.1em;
+		margin:0 0 10px;
+	}
+	.views-widget {
+		margin:0 0 10px;
+	}
+}
+/* NOT IN USE
+.bef-select-as-links {
+	.form-item {
+		div {
+			float:left;
+			margin:10px;
+			color:white;
+			text-transform:uppercase;
+			padding:5px;
+			@include button();
+			font-size:1.6em;
+			a {
+
+			}
+		}
+		#edit-field-project-type-tid-all {
+			margin-left:0;
+		}
+	}
+} */
+
+/* Project Sidebar */
+.view-id-project_side_info {
+	padding:77px 0 0;
+	.views-label {
+		text-transform:uppercase;
+		font-weight:700;
+		font-size:2.2em;
+	}
+	.field-content {
+		font-size:2.1em;
+		line-height: 1.6em;
+		margin:0 0 14px;
+		a {
+			@include link(1em);
+		}
+	}
+}
+
+/*    ---Journal Yo----   */
+.context-journal {
+	p { margin-bottom:6px; }
+	img { width:100%; max-width:100%; height:auto;  }
+	.view-journal {
+		.views-row { margin-bottom:60px;
+			.views-field-title {
+				a { 
+					font-size: 3.1em;
+					&:hover { 
+      					color:$main; 
+    				}
+				}
+			}
+			.read-more {
+				text-transform:uppercase;
+				color:black;
+				font-size:1.2em;
+				font-weight:bold;
+				border-bottom:$main solid 2px;
+				&:hover {
+					background:rgba($main, 0.5);
+				}
+			}
+			.views-field-created {
+				margin-top: 13px;
+				font-size: 14px;
+			}
+		}
+	}
+
+}
+.node-article {
+	.field-name-field-date { margin: 0 0 10px 0;
+		.date-display-single {
+			font-size: 1.6em;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+	}
+	.field-name-body {
+		p {
+			margin-top:5px;
+		}
+	}
+	.field-name-field-tags {
+		font-weight:700;
+		font-size:1.2em;
+		text-transform:uppercase;
+		.field-item { margin:0 5px;
+			a {
+				border-bottom: 1px solid $main;
+			}
+		}
+	}
+}
+#disqus_thread {
+	margin:80px 0 0;
+}
+/*    ---Contact ME!---     */
+.context-contact {
+	.webform-client-form {
+		input, select { width:100%;	}
+		label { font-size:1.8em; }
+		#webform-component-name, .webform-component-webform_email, .webform-component-select {
+			input, select {font-size: 2.4em;}
+		}
+		.form-submit { @include button(); border:none; text-shadow:none; font-size:3em; padding:10px;
+		}
+	}
+	.section-footer { display:none;}
+}
+/* Contact Button */
+.block-2 {
+	.content a {
+		text-transform:uppercase;
+		font:700 3.5em "futura-pt",sans-serif;
+		@include button();
+		padding:20px 0;
+		display:block;
+		span {
+			font:400 0.5em athelas, serif;
+			text-transform:none;
+			margin-bottom:4px;
+			display:block;
+		}
+	}
+}
+
+
+
+
+/*      ----Footer----      */
+footer.section-footer {
+	margin:20px 0 0;
+	padding:20px 10px 50px;
+	text-align:center;
+	background-color: transparent;
+	background-color: #111; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000); zoom: 1;
+	.region-footer-first {
+	}
+}
+.zone-footer {
+	padding: 40px 0;
+}
+/* Social Menu */
+.block-menu-social, .block-main-menu {
+	text-align:center;
+	.navigate {
+		display:none;
+	}
+	.block-title {
+		color:white;
+		margin:40px 0;
+	}
+	ul {
+		text-align:center;
+		li {
+			list-style:none;
+			margin:7px 0;
+			a {
+				font-size:3.1em;
+				color:white;
+				&:hover, &:active {
+					border-bottom:$main solid 2px;
+				}
+			}
+		}
+	}
+}
+/* Footer Nav */
+
+
+
+/* Tabs */
+div.tabs {
+	position:fixed; top: 100px; right:0; z-index:10000;
+	ul {
+		border:none;
+		li, li.active {
+			a {
+				@include button(); background-color:transparent; border:none;
+			}
+		}
+	}
+}

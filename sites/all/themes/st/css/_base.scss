@@ -1,0 +1,67 @@
+@import "compass";
+$bg:#dfdfd3;
+$main:#00b4cc;
+$dark:#005F6B;
+$orange:#f28b15;
+$green:#00cc30;
+$projects:#3d095f;
+$contact: $projects - 40;
+@mixin transition($sec: 0.2s) {
+-webkit-transition: all $sec ease-out;
+   -moz-transition: all $sec ease-out;
+    -ms-transition: all $sec ease-out;
+     -o-transition: all $sec ease-out;
+        transition: all $sec ease-out;
+}
+@mixin button() { 
+	background:rgba($main, 0.6);
+	@include background-image(linear-gradient(/*left top, */rgba($main, 0.6), rgba($main - 10, 0.6)));
+	@include border-radius(5px);
+    @include transition();
+    @include box-shadow(2px 2px 6px rgba(black, 0.3));
+	font-family: "futura-pt",sans-serif; 
+	font-weight:700; 
+	color:white; 
+	text-transform:uppercase;
+    border-bottom:none;
+    text-align:center;
+	&:active, &:hover {
+        background:rgba($main, 0.8); 
+        @include box-shadow(2px 2px 10px rgba(black,0.7));
+    }
+}
+
+@mixin link($size: 3.1em) {
+  font-size:$size;
+  border-bottom:$main solid 2px; 
+    &:hover { 
+      background:rgba($main, 0.5); 
+    }
+}
+
+@mixin adjust($size) {
+    @include adjust-font-size-to($size);
+}
+
+/* FONTS */
+@font-face {
+    font-family: 'ModernPictogramsNormal';
+    src: url('../fonts/modernpics-webfont.eot');
+    src: url('../fonts/modernpics-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/modernpics-webfont.woff') format('woff'),
+         url('../fonts/modernpics-webfont.ttf') format('truetype'),
+         url('../fonts/modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SocialicoRegular';
+    src: url('../fonts/socialico-webfont.eot');
+    src: url('../fonts/socialico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/socialico-webfont.woff') format('woff'),
+         url('../fonts/socialico-webfont.ttf') format('truetype'),
+         url('../fonts/socialico-webfont.svg#SocialicoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

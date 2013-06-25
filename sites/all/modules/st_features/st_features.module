@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ST Features feature.
+ */
+
+include_once 'st_features.features.inc';

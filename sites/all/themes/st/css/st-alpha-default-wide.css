@@ -1,0 +1,6 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+/* Contact Button */
+/* line 4, st-alpha-default-wide.scss */
+.block-2 .content a { font-size: 3.5em; padding: 20px 0; }
+/* line 7, st-alpha-default-wide.scss */
+.block-2 .content a span { margin-bottom: 0; }

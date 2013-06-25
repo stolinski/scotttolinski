@@ -1,0 +1,1255 @@
+.page {
+background : none;
+}
+
+.cms-index-index .page {
+background-image : none;
+}
+
+.cms-home .page {
+background : none;
+}
+.header-panel {
+text-align: center;
+width: 770px;
+margin: 0 auto;
+z-index: 994;
+line-height: 28px;
+padding: 5px 220px 5px 0;
+color: white;
+}
+.header {
+height: 195px;
+width: 1050px;
+margin-left: auto;
+margin-right: auto;
+background:url(../css_editor_images/header_bg.png) no-repeat;
+
+}
+.header-container {
+margin-bottom: 0;
+padding-bottom: 0;
+background: none;
+}
+.header a.logo {
+bottom: -50px;
+left: 45px;
+}
+.header .quick-access {
+float: right;
+margin: 0 100px 0 0;
+padding: 130px 0 0;
+width: 410px;
+}
+.header .form-search {
+clear: right;
+float: right;
+padding: 0;
+position: absolute;
+right: 90px;
+top: 60px;
+white-space: nowrap;
+}
+.header .form-search input.input-text {
+background: url(../css_editor_images/search.jpg) no-repeat;
+text-transform: uppercase;
+width: 239px;
+height: 34px;
+color: #fff;
+padding: 0 0 0 10px;
+border: none;
+}
+
+.top-cart .block-title {
+color: #fff;
+cursor: pointer;
+font-size: 14px;
+font-weight: normal;
+height: 18px;
+line-height: 18px;
+padding: 0;
+white-space: nowrap;
+}
+.header .quick-access .links li a {
+color: #fff;
+text-decoration: none;
+font-weight: normal;
+font-size: 14px;
+}
+.top-cart .block-title strong {
+background: none;
+color: #fff;
+display: block;
+font-weight: normal;
+font-size: 14px;
+text-decoration: none;
+}
+
+
+/* Main Nav */
+.nav-container {
+background: url(../css_editor_images/nav_bg.png) no-repeat;
+width: 1050px;
+height: 42px;
+margin-left: auto;
+margin-right: auto;
+padding: 0;
+}
+#nav {
+padding: 0;
+margin: 0 0 0 40px;
+}
+#nav a.level-top {
+font-size: 18px;
+color: #fff;
+font-weight: normal;
+padding: 3px 4px 4px;
+
+}
+#nav li.over a.level-top, #nav li.active a.level-top {
+background: #a2195d;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding: 3px 4px 4px;
+}
+#nav li.over a.level-top {
+background: #a2195d;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding: 3px 4px 4px;
+}
+#nav ul, #nav div {
+top: 32px;
+-moz-box-shadow: 1px 1px 5px #000;
+-webkit-box-shadow: 1px 1px 5px #000;
+box-shadow: 1px 1px 5px #000;
+-moz-border-radius: 0 0 15px 15px;
+border-radius: 0 0 15px 15px;
+}
+#nav li .show-sub { z-index:1000; }
+#nav ul li { z-index:1000;}
+/* nav level 2 */
+#nav ul li a {
+font-size: 14px;
+font-weight: normal;
+text-transform: none;
+}
+#nav ul li.first {
+background-image: none;
+background: #333f3f;
+}
+#nav ul li {
+background-image: none;
+background: #333f3f;
+}
+#nav ul li.last {
+background-image: none;
+background: #333f3f;
+-moz-border-radius: 0 0 15px 15px;
+border-radius: 0 0 15px 15px;
+}
+
+
+/* Top Container */
+.top-container {
+background: url(../css_editor_images/page_bg.png) repeat-y;
+width: 1050px;
+margin-left: auto;
+margin-right: auto;
+}
+.page-sitemap {width : 900px;
+}
+
+.page > .messages {
+background: url(../css_editor_images/page_bg.png) repeat-y;
+width: 1050px;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* main */
+.main {
+background: url(../css_editor_images/page_bg.png) repeat-y;
+width: 1050px;
+margin-left: auto;
+margin-right: auto;
+}
+.col-main {
+margin: 0 0 0 50px;
+float: left;
+padding: 0 0 20px;
+width: 700px;
+}
+.col2-right-layout {
+background: url(../css_editor_images/page_bg.png) repeat-y;
+width: 1050px;
+margin-left: auto;
+margin-right: auto;
+}
+.col3-set {
+width: 940px;
+}
+.account-login {
+position: relative;
+font-size: 12px;
+min-height: 350px;
+margin-right: 50px;
+}
+.col1-layout .col-main {
+float: none;
+width: auto;
+margin-right: 50px;
+}
+
+/*left col */
+.col2-left-layout {
+padding: 0 50px 0 50px;
+width: 950px;
+}
+.col-left {
+float: left;
+width: 200px;
+padding: 0 0 0;
+margin: 0 0 -1px;
+}
+.sidebar .block-account li a:hover {
+background-color: #a2195d;
+color: white;
+text-decoration: none;
+}
+.sidebar .block-account li.current strong {
+background-color: #a2195d;
+color: white;
+display: inline-block;
+padding: 2px 2px 1px;
+}
+
+.sidebar .block-account .block-content {
+padding: 15px 0 20px 30px;
+background: #333f3f;
+}
+/* right col */
+.col-right {
+float: right;
+margin: 0 50px -1px 0;
+padding: 0;
+width: 230px;
+}
+.sidebar .block .block-title {
+background: url(../css_editor_images/brown_heading_bg.gif) repeat;
+width: 227px;
+
+padding: 3px 1px;
+     -moz-box-shadow: 0px 0px 5px #333; /* FF3.5+ */
+  -webkit-box-shadow: 0px 0px 5px #333; /* Saf3.0+, Chrome */
+          box-shadow: 0px 0px 5px #333; /* Opera 10.5, IE9, Chrome 10+ */
+text-align: center; border : none;
+}
+.sidebar .block .block-title strong {
+padding: 3px 0;
+border-top:dashed 1px #675e4d;
+border-bottom:dashed 1px #675e4d;
+text-align:center;
+color:#fff;
+font-size: 14px;
+font-weight: normal;
+text-transform: uppercase;
+font-family:georgia, serif;
+}
+.sidebar .block {
+background: none repeat scroll 0 0 #FFFFFF;
+border-radius: 0 0 5px 5px;
+-moz-border-radius: 0 0 5px 5px;
+box-shadow: 0 0 5px #888;
+-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px #888;
+margin-bottom: 20px;
+}
+.tea-facts {
+background: none repeat scroll 0 0 #FFFFFF;
+border-radius: 0 0 5px 5px;
+-moz-border-radius: 0 0 5px 5px;
+box-shadow: 0 0 5px #888;
+-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px #888;
+margin-bottom: 20px;
+}
+
+
+
+.tea-facts p{
+margin:10px;
+}
+
+
+/*products widget */
+.products-grid li.item {
+display: inline;
+float: left;
+margin-right: 18px;
+overflow: hidden;
+text-align: center;
+width: 156px;
+}
+.product-name {
+color: #333333;
+font-size: 12px;
+font-weight: bold;
+line-height: 1.2;
+text-transform: uppercase;
+height: 44px;
+}
+
+/* product page */
+.product-view .product-shop {
+border-top: none;
+float: right;
+padding: 15px 50px 0 0;
+width: 438px;
+}
+.product-collateral {
+clear: right;
+float: right;
+margin-bottom: 30px;
+padding: 0 50px 15px 0;
+width: 438px;
+}
+.options-container-small .product-options {
+background: none;
+margin: 0 0 10px;
+padding: 0 13px;
+color: #333f3f;
+}
+.collateral-tabs {
+background: none repeat scroll 0 0 #fff;
+border: 1px solid #E2E2E2;
+color: #333f3f;
+margin: 0 0 15px;
+padding: 13px;
+}
+.collateral-tabs .active {
+color: #333f3f;
+}
+.collateral-tabs .tab-content {
+background: none repeat scroll 0 0 #fff;
+font-size: 12px;
+padding: 20px 13px 0;
+}
+.sidebar .block-list .product-name {
+color: #444444;
+font: 11px/1.25 Arial,Helvetica,sans-serif; height : 16px;
+}
+.options-container-small .product-options label {
+color: #333f3f;
+}
+
+
+/* breadcrumbs */
+.breadcrumbs ul {
+margin: 0 0 0 50px;
+}
+.breadcrumbs {
+background: url(../css_editor_images/page_bg.png) repeat-y;
+width: 1050px;
+margin: 0 auto;
+}
+.catalog-category-view .breadcrumbs {
+background: url(../css_editor_images/page_bg.png) repeat-y;
+width: 1050px;
+margin: 0 auto;
+padding: 20px 0 ;
+}
+
+
+/* buttons */
+input, select, textarea, button {
+font: 12px georgia,serif;
+vertical-align: middle;
+}
+button.btn-cart span span {
+background: none repeat scroll 0 0 #B20E0E;
+color: #FFFFFF;
+}
+button.btn-cart span {
+background: none;
+background: url(../css_editor_images/cart_button.png) no-repeat;
+color: #FFFFFF;
+height: 32px;
+width: 108px;
+padding: 0;
+}
+button.btn-cart span span {
+background: none;
+padding: 8px 0 0 0;
+font-family: Georgia,serif;
+}
+.add-to-cart button.btn-cart span {
+background: none;
+padding: 8px 0 0 0;
+font-family: Georgia,serif;
+}
+.product-view .product-essential button.btn-cart span {
+background: none;
+background: url(../css_editor_images/cart_button.png) no-repeat;
+color: #FFFFFF;
+height: 32px;
+width: 108px;
+padding: 0;
+}
+.product-view .product-essential button.btn-cart span, .add-to-cart button.btn-cart span {
+height: 32px;
+width: 108px;
+}
+.product-view .product-essential button.btn-cart span, .add-to-cart button.btn-cart span {
+height: 32px;
+width: 108px;
+padding: 6px 3px 0 0 !important;
+}
+.product-view .product-essential button.btn-cart span span, .add-to-cart button.btn-cart span span {
+height: 32px;
+width: 108px;
+}
+.product-view .product-essential button.btn-cart span, .add-to-cart button.btn-cart span {
+height: 32px;
+width: 108px;
+padding: 6px 3px 0 0 !important;
+}
+.product-view .product-essential button.btn-cart span, .add-to-cart button.btn-cart span {
+height: 32px;
+width: 108px;
+padding: 6px 3px 0 0 !important;
+}
+.product-view .product-essential button.btn-cart span, .add-to-cart button.btn-cart span {
+padding: 6px 3px 0 0 !important;
+height: 32px!important;
+}
+.product-view .product-essential button.btn-cart span span, .add-to-cart button.btn-cart span span {
+background: none;
+font-family: Georgia,serif;
+}
+.pager .pages .current {
+font-weight: bold;
+background: #a2195d;
+color: white;
+}
+
+/*Check Out */
+.cart .shipping {
+float: left;
+margin: 0 0 0 30px;
+display: inline;
+font-size: 12px;
+width: 300px;
+}
+.opc .active .step-title {
+background: #A2195D;
+}
+.opc .active .step-title .number {
+color: white;
+background: black;
+}
+.opc {
+float: right;
+width: 710px;
+}
+/* footer */
+.footer-container {
+width: 1050px;
+margin-left: auto;
+margin-right: auto;
+position: static;
+}
+.footer {
+background: no-repeat;
+height: 197px;
+padding: 50px 0 0;
+width: 1050px;
+margin-left: auto;
+margin-right: auto;
+}
+.footer-before-container {
+background: none;
+margin: 0;
+padding: 0;
+font-family: Georgia,serif;
+}
+
+
+
+/* slider */
+
+.nivoSlider {
+	position:relative;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width:100%;
+	z-index:8;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav a {
+	position:relative;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+.footer ul, .footer ul.links {
+display: block;
+float: left;
+margin: 0 40px 0 0;
+display: inline;
+}
+.footer ul.links {
+margin: 0 40px 0 60px;
+}
+.form-subscribe {
+float: right;
+padding: 0 80px 0;
+}
+address.copyright {
+position: absolute;
+width: 200px;
+margin-left: 295px;
+left: 50%;
+text-align: left;
+padding: 0;
+font-size: 10px;
+text-transform: uppercase;
+font-weight: bold;
+color: #666;
+text-align: right;
+}
+
+/* FOOTER */
+.footer a {
+text-decoration: none;
+font-size: 12px;
+font-weight: bold;
+color: #999;
+text-transform: uppercase;
+-moz-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+-webkit-transition: all 0.3s ease-out;
+-ms-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
+
+.footer a:hover {
+	color:#fff;
+}
+.form-subscribe input.input-text {
+width: 200px;
+background: transparent;
+border-color: #BBB;
+font-size: 11px;
+font-weight: bold;
+color: #999;
+text-transform: uppercase;
+}
+
+
+
+/* CHECKOUT BUTTONS */
+
+.btn-checkout span, .cart .checkout-types .btn-proceed-checkout span {
+background: #A2195D!important;
+padding: 8px !important;
+border-radius: 8px;
+}
+
+.btn-checkout span, .cart .checkout-types .btn-proceed-checkout span span{
+background: #A2195D!important;
+}
+
+.cart .totals table tfoot strong {
+color: #A2195D;
+}
+
+
+/* Product Pages */
+.product-view .product-shop .no-rating, .product-view .product-shop .ratings {
+margin: 3px 0 15px;
+padding-bottom: 15px;
+border-bottom: 1px solid #E2E2E2;
+padding-top: 15px;
+}
+/*Review Button */
+.nobr {
+white-space: nowrap !important;
+position: relative;
+top: 20px;
+}
+
+/* Product Reviews */
+.review-product-list .product-main-info .price-box {
+border-top: 1px solid #DEDEDE;
+padding-top: 13px;
+margin-top: 30px;
+}
+
+.box-collateral {
+background: white;
+width: 950px;
+}
+
+/*About Us */
+.par1 {
+margin-top:20px;
+color: #888; 
+font: 1.1em georgia, serif;
+}
+
+
+
+/* New Products */
+.widget-new-products {
+background: white;
+box-shadow: 0 0 5px #333;
+margin-top: 20px;
+}
+
+.products-grid .product-image {
+display: block;
+text-decoration: none !important;
+margin: 0;
+position: relative;
+width: 100%;
+height: 169px;
+border: none;
+position: relative;
+z-index: 1;
+}
+
+/* Products Grid */
+
+.widget-new-products:first-child  {
+	margin-top:30px;
+}
+
+.products-grid .product-image img {
+position: absolute;
+width: 135px;
+height: 135px;
+z-index: 1;
+left: 50%;
+top: 50%;
+margin-left: -67px;
+margin-top: -67px;
+     -moz-border-radius: 5px; /* FF1+ */
+  -webkit-border-radius: 5px; /* Saf3-4, iOS 1+, Android 1.5+ */
+          border-radius: 5px; /* Opera 10.5, IE9, Saf5, Chrome, FF4 */
+     -moz-box-shadow: 0px 0px 5px #aaa; /* FF3.5+ */
+  -webkit-box-shadow: 0px 0px 5px #aaa; /* Saf3.0+, Chrome */
+          box-shadow: 0px 0px 5px #aaa; /* Opera 10.5, IE9, Chrome 10+ */
+
+}
+
+.products-grid .product-image img:hover {
+     -moz-box-shadow: 0px 0px 8px #333; /* FF3.5+ */
+  -webkit-box-shadow: 0px 0px 8px #333; /* Saf3.0+, Chrome */
+          box-shadow: 0px 0px 8px #333; /* Opera 10.5, IE9, Chrome 10+ */
+
+}
+
+.featured-title h2 {
+padding: 9px 0;
+border-top:dashed 1px #4f7676;
+border-bottom:dashed 1px #4f7676;
+text-align:center;
+color:#fff;
+font-size: 18px;
+font-weight: normal;
+text-transform: uppercase;
+}
+
+#slider-wrapper {
+     -moz-box-shadow: 0px 0px 5px #333; /* FF3.5+ */
+  -webkit-box-shadow: 0px 0px 5px #333; /* Saf3.0+, Chrome */
+          box-shadow: 0px 0px 5px #333; /* Opera 10.5, IE9, Chrome 10+ */	
+          height:350px;
+}
+
+
+
+
+/*Side Bar */
+.sidebar .block .block-content {
+padding: 20px 25px 40px 40px;
+}
+
+.tea-facts .block-title strong {
+padding: 3px 0;
+border-top:dashed 1px #675e4d;
+border-bottom:dashed 1px #675e4d;
+text-align:center;
+color:#fff;
+font-size: 14px;
+font-weight: normal;
+text-transform: uppercase;
+font-family:georgia, serif;
+display: block;
+}
+
+.widget-products {
+	padding-left: 10px;
+	padding-bottom:10px;
+	padding-top:20px;
+}
+
+
+
+
+/*
+ * jQuery Nivo Slider v2.6
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2011, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width:100%;
+	z-index:8;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav a {
+	position:relative;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+#slider {
+    margin:0 auto 0 auto;
+    width:700px; /* Make sure your images are the same size */
+    height:350px; /* Make sure your images are the same size */
+}
+
+
+/* Widgets */
+.widget-static-block p { margin-bottom:10px; }
+
+
+
+#lightwindow_overlay {
+	/* REQUIRED */
+	display: none;
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	z-index: 500;
+	/* REQUIRED */
+}
+
+#lightwindow {
+	/* REQUIRED */
+	/* Of Note - The height and width of this element are set to 0px */
+	display: none;
+	visibility: hidden;
+	position: absolute;
+	z-index: 999;
+	line-height: 0px;
+	/* REQUIRED */
+}
+
+	#lightwindow_container {
+		/* REQUIRED */
+		display: none;
+		visibility: hidden;
+		position: absolute;
+		/* REQUIRED */
+		padding: 0 0 0 0;
+		margin: 0 0 0 0;
+	     -moz-box-shadow: 0px 0px 16px #000; /* FF3.5+ */
+	  -webkit-box-shadow: 0px 0px 16px #000; /* Saf3.0+, Chrome */
+	          box-shadow: 0px 0px 16px #000; /* Opera 10.5, IE9, Chrome 10+ */
+	}
+
+	/* IE6 needs this or it messes with our positioning */
+	* html #lightwindow_container {
+		overflow: hidden;
+	}
+
+	#lightwindow_contents {
+		overflow: hidden;
+		z-index: 0;
+		position: relative;
+		border: 10px solid #fbfdec;
+		background-color: #fbfdec;
+	}		
+
+#lightwindow_loading {
+	/* REQUIRED */
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 9999;
+	position: absolute;
+	/* REQUIRED */
+	background-color: #f0f0f0;
+	padding: 10px;
+}
+
+	#lightwindow_loading_shim { 
+		display: none;
+		left: 0px; 
+		position: absolute; 
+		top: 0px;
+		width: 100%; 
+		height: 100%;
+	}
+
+	#lightwindow_loading span {
+    	font-size: 12px;
+		line-height: 32px;
+		color: #444444;
+		float: left;
+		padding: 0 10px 0 0;
+	}
+
+	#lightwindow_loading span a,
+	#lightwindow_loading span a:link, 
+	#lightwindow_loading span a:visited {
+		color: #09F;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+	#lightwindow_loading span a:hover,
+	#lightwindow_loading span a:active {
+		text-decoration: underline;
+	}
+
+
+	#lightwindow_loading img {
+   		float: left;
+   		margin: 0 10px 0 0;
+	}
+
+
+/*-----------------------------------------------------------------------------------------------
+	I liked the Navigation so much from http://www.huddletogether.com/projects/lightbox2/
+	I mean let's face it, it works really well and is very easy to figure out.
+-----------------------------------------------------------------------------------------------*/
+
+#lightwindow_navigation {
+	/* REQUIRED */
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+	/* REQUIRED */
+}
+	/* We need to shim the navigation for IE, though its more of a sub-floor */
+	#lightwindow_navigation_shim { 
+		/* REQUIRED */
+		display: none;
+		left: 0px; 
+		position: absolute; 
+		top: 0px;
+		width: 100%; 
+		height: 100%;
+		/* REQUIRED */
+	}
+
+	#lightwindow_navigation a,
+	#lightwindow_navigation a:link,
+	#lightwindow_navigation a:visited,
+	#lightwindow_navigation a:hover,
+	#lightwindow_navigation a:active { 
+		/* REQUIRED */
+		outline: none;
+		/* REQUIRED */
+	}
+
+	#lightwindow_previous, 
+	#lightwindow_next {
+		width: 49%;
+		height: 100%;
+		background: transparent url(blank.gif) no-repeat; /* Trick IE into showing hover */
+		display: block;
+	}
+	
+	#lightwindow_previous { 
+		float: left;
+		left: 0px;
+	}
+
+	#lightwindow_next { 
+		float: right;
+		right: 0px;
+	}
+
+	#lightwindow_previous:hover, 
+	#lightwindow_previous:active { 
+		background: url(prevlabel.gif) left 15% no-repeat; 
+	}
+
+	#lightwindow_next:hover, 
+	#lightwindow_next:active { 
+		background: url(nextlabel.gif) right 15% no-repeat; 
+	}
+	
+	#lightwindow_previous_title,
+	#lightwindow_next_title {
+		display: none;
+	}
+	 	
+#lightwindow_galleries {
+	width: 100%;
+	position: absolute;
+	z-index: 50; 
+	display: none;
+	overflow: hidden;
+	margin: 0 0 0 10px;
+	bottom: 0px;
+	left: 0px;
+}
+
+	#lightwindow_galleries_tab_container {
+		width: 100%;
+		height: 0px;
+		overflow: hidden;
+	}
+
+	a#lightwindow_galleries_tab,		
+	a:link#lightwindow_galleries_tab,
+	a:visited#lightwindow_galleries_tab {
+		display: block;
+		height: 20px;
+		width: 77px;
+		float: right;
+		line-height: 22px;
+		color: #ffffff;
+		text-decoration: none;
+		font-weight: bold;
+		cursor: pointer;
+		font-size: 11px;
+		color: #ffffbe;
+		background: url(black-70.png) repeat 0 0 transparent;
+	}
+	
+	* html a#lightwindow_galleries_tab,		
+	* html a:link#lightwindow_galleries_tab,
+	* html a:visited#lightwindow_galleries_tab {	
+		background: none;
+		background-color: #000000;
+		opacity: .70;
+		filter: alpha(opacity=70);
+	}
+
+	a:hover#lightwindow_galleries_tab,
+	a:active#lightwindow_galleries_tab {
+		color: #ffffbe;
+
+	}
+
+	#lightwindow_galleries_tab_span {
+		display: block;
+		height: 20px;
+		width: 63px;
+		padding: 0 7px 0 7px;
+	}
+	
+	#lightwindow_galleries_tab .up	{
+		background: url(arrow-up.gif) no-repeat 60px 5px transparent;
+	}
+
+	#lightwindow_galleries_tab .down {
+		background: url(arrow-down.gif) no-repeat 60px 6px transparent;
+	}
+
+	#lightwindow_galleries_list {
+		background: url(black-70.png) repeat 0 0 transparent;
+		overflow: hidden;
+		height: 0px;
+	}
+
+	* html #lightwindow_galleries_list {
+		background: none;
+		background-color: #000000;
+		opacity: .70;
+		filter: alpha(opacity=70);
+	}	
+
+	.lightwindow_galleries_list {
+		width: 200px;
+		float: left;
+		margin: 0 0 10px 0;
+		padding: 10px;
+	}
+
+	.lightwindow_galleries_list h1 {	
+		color: #09F;
+		text-decoration: none;
+		font-weight: bold;
+		cursor: pointer;
+		padding: 10px 0 5px 0;
+		font-size: 16px;
+	}
+
+	.lightwindow_galleries_list li {
+		margin: 5px 0 5px 0;
+		list-style-type: none;
+	}
+
+	.lightwindow_galleries_list a, 
+	.lightwindow_galleries_list a:link, 
+	.lightwindow_galleries_list a:visited {
+		display: block;
+		line-height: 22px;
+		color: #ffffff;
+		text-decoration: none;
+		font-weight: bold;
+		cursor: pointer;
+		padding: 0 0 0 10px;
+		font-size: 11px;
+	}
+
+	.lightwindow_galleries_list a:hover, 
+	.lightwindow_galleries_list a:active {
+		background: #000000;
+		color: #ffffbe;
+		border-left: 3px solid #ffffbe;
+		padding: 0 0 0 7px;
+	}
+		
+#lightwindow_data {
+	/* REQUIRED */
+	position: absolute;
+	/* REQUIRED */
+}
+
+	#lightwindow_data_slide {
+		/* REQUIRED */
+		position: relative;
+		/* REQUIRED */
+	}
+
+	#lightwindow_data_slide_inner {
+		background-color: #ffffff;
+		padding: 0 10px 10px 10px;
+	}
+
+	#lightwindow_data_caption {
+		padding: 10px 0 0 0;
+		color: #666666;
+		line-height: 25px;
+		background-color: #ffffff;
+		clear: both;
+	}
+
+	#lightwindow_data_details {
+		background-color: #f0f0f0;
+		padding: 0 10px 0 10px;
+		height: 20px;
+	}
+	
+	#lightwindow_data_author_container {
+		width: 40%;
+		text-align: right;
+		color: #666666;
+	 	font-style: italic;
+		font-size: 10px;
+		line-height: 20px;
+		float: right;
+		overflow: hidden;
+	}
+	
+	#lightwindow_data_gallery_container {
+		font-size: 10px;
+		width: 40%;
+		text-align: left;
+		color: #666666;
+		line-height: 20px;
+		float: left;
+		overflow: hidden;
+	}
+	
+#lightwindow_title_bar {
+	height: 25px;
+	overflow: hidden;
+	background:#344141;
+	color:white;
+	font-family:georgia;
+}
+
+	#lightwindow_title_bar_title {
+		color: white;
+		margin:0 4px;
+		font-size: 14px;
+		line-height: 25px;
+		text-align: left;
+		float: left;
+	}
+
+	a#lightwindow_title_bar_close_link,	
+	a:link#lightwindow_title_bar_close_link,
+	a:visited#lightwindow_title_bar_close_link {
+		float: right;
+		text-align: right;		
+		cursor: pointer;
+		color: #white;
+		line-height: 25px;
+		padding: 0;
+		margin: 0 4px;
+	}
+	
+	a:hover#lightwindow_title_bar_close_link,
+	a:active#lightwindow_title_bar_close_link {
+		color: #ffffff;
+	}
+
+/*-----------------------------------------------------------------------------------------------
+	Theme styling stuff
+-----------------------------------------------------------------------------------------------*/	
+
+#lightwindow p {
+	color: #000000;
+	padding-right: 10px;
+}
+
+.widget-static-block .featured-title { margin:20px 0 0; }
+.btea-news { background: white; color:#333; padding:10px;
+  -webkit-box-shadow: 0px 0px 5px 0px #333;
+     -moz-box-shadow: 0px 0px 5px 0px #333;
+          box-shadow: 0px 0px 5px 0px #333;
+}
+
+
+
+
